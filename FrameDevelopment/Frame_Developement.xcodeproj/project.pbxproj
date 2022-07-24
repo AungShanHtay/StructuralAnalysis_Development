@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E9A8A302868447D008BA78C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A8A2F2868447D008BA78C /* main.cpp */; };
+		9BF12E85287A8EC40038B2F0 /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF12E84287A8EC40038B2F0 /* Python.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5E9A8A2A2868447D008BA78C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5E1BA558287AB5DA0048E80C /* ForceConditions.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ForceConditions.txt; sourceTree = "<group>"; };
+		5E2195E92875C72000214389 /* SupportConditions.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = SupportConditions.txt; sourceTree = "<group>"; };
+		5E9A8A2C2868447D008BA78C /* Frame_Developement */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Frame_Developement; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E9A8A2F2868447D008BA78C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5E9A8A3628684A49008BA78C /* Node.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Node.txt; sourceTree = "<group>"; };
+		5EA8C9292874666A0075F6BE /* Element.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Element.txt; sourceTree = "<group>"; };
+		5EAE1A2A2877209200577C9E /* Loader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Loader.h; sourceTree = "<group>"; };
+		9BB6B475287E733A00C61A55 /* EndMoment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EndMoment.h; sourceTree = "<group>"; };
+		9BF12E7F287A8C780038B2F0 /* matplotlibcpp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = matplotlibcpp.h; sourceTree = "<group>"; };
+		9BF12E84287A8EC40038B2F0 /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = "../../../../../usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E9A8A292868447D008BA78C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF12E85287A8EC40038B2F0 /* Python.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E9A8A232868447D008BA78C = {
+			isa = PBXGroup;
+			children = (
+				5E9A8A2E2868447D008BA78C /* Frame_Developement */,
+				5E9A8A2D2868447D008BA78C /* Products */,
+				9BF12E83287A8EC40038B2F0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5E9A8A2D2868447D008BA78C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E9A8A2C2868447D008BA78C /* Frame_Developement */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E9A8A2E2868447D008BA78C /* Frame_Developement */ = {
+			isa = PBXGroup;
+			children = (
+				5E9A8A2F2868447D008BA78C /* main.cpp */,
+				5E9A8A3628684A49008BA78C /* Node.txt */,
+				5EA8C9292874666A0075F6BE /* Element.txt */,
+				5E2195E92875C72000214389 /* SupportConditions.txt */,
+				5EAE1A2A2877209200577C9E /* Loader.h */,
+				9BF12E7F287A8C780038B2F0 /* matplotlibcpp.h */,
+				5E1BA558287AB5DA0048E80C /* ForceConditions.txt */,
+				9BB6B475287E733A00C61A55 /* EndMoment.h */,
+			);
+			path = Frame_Developement;
+			sourceTree = "<group>";
+		};
+		9BF12E83287A8EC40038B2F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BF12E84287A8EC40038B2F0 /* Python.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E9A8A2B2868447D008BA78C /* Frame_Developement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E9A8A332868447D008BA78C /* Build configuration list for PBXNativeTarget "Frame_Developement" */;
+			buildPhases = (
+				5E9A8A282868447D008BA78C /* Sources */,
+				5E9A8A292868447D008BA78C /* Frameworks */,
+				5E9A8A2A2868447D008BA78C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Frame_Developement;
+			productName = Frame_Developement;
+			productReference = 5E9A8A2C2868447D008BA78C /* Frame_Developement */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E9A8A242868447D008BA78C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					5E9A8A2B2868447D008BA78C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 5E9A8A272868447D008BA78C /* Build configuration list for PBXProject "Frame_Developement" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E9A8A232868447D008BA78C;
+			productRefGroup = 5E9A8A2D2868447D008BA78C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E9A8A2B2868447D008BA78C /* Frame_Developement */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E9A8A282868447D008BA78C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E9A8A302868447D008BA78C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5E9A8A312868447D008BA78C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5E9A8A322868447D008BA78C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5E9A8A342868447D008BA78C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/include/eigen3/**",
+					"/usr/local/Cellar/numpy/1.23.0/lib/python3.9/site-packages/numpy/core/include/**",
+					"/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/include/**",
+					"/usr/local/Cellar/numpy/1.23.1/lib/python3.9/site-packages/numpy/core/include/**",
+					"/Users/ash/Desktop/matplotlibcpp17/**",
+					"/usr/local/Cellar/pybind11/2.9.2/include/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/include/eigen3/**",
+					"/usr/local/Cellar/numpy/1.23.0/lib/python3.9/site-packages/numpy/core/lib/**",
+					"/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/**",
+					"/usr/local/Cellar/numpy/1.23.1/lib/python3.9/site-packages/numpy/core/lib/**",
+					"/usr/local/Cellar/pybind11/2.9.2/lib/**",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E9A8A352868447D008BA78C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/include/eigen3/**",
+					"/usr/local/Cellar/numpy/1.23.0/lib/python3.9/site-packages/numpy/core/include/**",
+					"/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/include/**",
+					"/usr/local/Cellar/numpy/1.23.1/lib/python3.9/site-packages/numpy/core/include/**",
+					"/Users/ash/Desktop/matplotlibcpp17/**",
+					"/usr/local/Cellar/pybind11/2.9.2/include/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/include/eigen3/**",
+					"/usr/local/Cellar/numpy/1.23.0/lib/python3.9/site-packages/numpy/core/lib/**",
+					"/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/**",
+					"/usr/local/Cellar/numpy/1.23.1/lib/python3.9/site-packages/numpy/core/lib/**",
+					"/usr/local/Cellar/pybind11/2.9.2/lib/**",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E9A8A272868447D008BA78C /* Build configuration list for PBXProject "Frame_Developement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E9A8A312868447D008BA78C /* Debug */,
+				5E9A8A322868447D008BA78C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E9A8A332868447D008BA78C /* Build configuration list for PBXNativeTarget "Frame_Developement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E9A8A342868447D008BA78C /* Debug */,
+				5E9A8A352868447D008BA78C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E9A8A242868447D008BA78C /* Project object */;
+}

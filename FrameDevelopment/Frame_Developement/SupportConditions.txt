@@ -1,0 +1,7 @@
+1,Fixed,Fixed
+2,Free,Free
+3,Fixed,Free
+4,Free,Free
+5,Fixed,Free
+6,Free,Free
+7,Fixed,Fixed
